@@ -1,3 +1,6 @@
+#ifndef CLOCK_H
+#define CLOCK_H
+
 /* Routines for using cycle counter */
 
 /* Start the counter */
@@ -20,3 +23,5 @@ double mhz_full(int verbose, int sleeptime);
 void start_comp_counter();
 
 double get_comp_counter();
+
+#endif
